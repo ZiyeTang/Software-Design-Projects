@@ -1,6 +1,7 @@
-﻿**Classroom Availability Project Proposal**
 
-By Sam (hongyid3), Tommy Tang (ziyet3), Bernard Zhu (bwz2), Faraaz Baig (fbaig5)
+**Classroom Availability Project Proposal**
+
+By Sam (hongyid3), Ziye Tang (ziyet3), Bernard Zhu (bwz2), Faraaz Baig (fbaig5)
 
 **Pitch**
 
