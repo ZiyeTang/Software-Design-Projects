@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C84113;
+    color: #fff;
+    height: 50px;
+    font: bold;
+  }
+  
+  .header-title {
+    padding: 10px 20px;
+    font-size: 24px;
+  }
+
+  .login-button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    background: transparent;
+    color: white;
+    border-color: transparent;
+    font-size: large;
+  }
+
+  .login-button:hover {
+    background: #b84200;
+    border-color: #13294B;
+    cursor: pointer;
+  }
+
+  .profile-name {
+    margin-right: 20px;
+    font-size: larger;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }

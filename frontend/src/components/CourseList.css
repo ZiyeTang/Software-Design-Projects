@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 300px; /* Increase width for better content presentation */
+  }
+}
+
+@media (max-width: 768px) {
+  .popup-inner {
+    max-height: 400px;
+    overflow-y: auto;
+    position: relative; /* Add relative positioning to the inner container */
+  }
+}
+
+#b1 {
+  position: fixed; /* Fix the X button at the top right */
+  top: 15px;
+  right: 55px; 
+  background: #cacaca;
+  color: #000000;
+  border: none;
+  padding: 9px 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .popup.active {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .courseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Add some padding for better spacing */
+  }
+}
+
+.title {
+  width: 100%;
+  max-width: 400px; /* Limit width for better readability */
+  font-size: larger;
+  text-align: left;
+  border: 2px solid #13294B;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 10px; /* Increase padding for better spacing */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.title:hover {
+  cursor: pointer;
+  background-color: #43983b;
+}
+
+.cn {
+  font-size: x-large;
+  font-weight: bold;
+}
